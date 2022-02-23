@@ -11,10 +11,12 @@
 </head>
 <body onload="calculation()">
     <div class="container w-50">
+        <!--  ввод первого числа -->
          <div class="mb-3">
             <label for="inputFirstNumber" class="form-label">Calculator</label>
             <input type="number" class="form-control w-25"  value="0" id="inputFirstNumber">
          </div>
+          <!--  блок с радио кнопками -->
          <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="plus">
             <label class="form-check-label" for="plus">
@@ -36,12 +38,14 @@
               /
             </label>
           </div>
-
+          <!--  ввод второго числа -->
          <div class="mb-3">
             <label for="inputSecondNumber" class="form-label"></label>
             <input type="number" class="form-control w-25" value="0" id="inputSecondNumber">
          </div>
+         <!--  кнопка для расчета -->
          <button onclick="calculation()" type="button" class="btn btn-dark">Высчитать</button>
+         <!--  результат -->
          <p>Ответ: <output id="result">-</output></p>
         
     </div>
