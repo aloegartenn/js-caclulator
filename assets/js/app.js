@@ -19,7 +19,7 @@ function calculation(){
     else if(division){
         answer= firstNumber / secondNumber
     }
-
+    
     result.innerHTML = answer;
     
 }
